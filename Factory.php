@@ -44,8 +44,9 @@ $productB = Factory::createProduct('B');
 $productA->show();
 $productB->show();
 
-/**实例**/
-
+/*
+ * 实例
+ */
 class MsgFactory {
     public static function createFactory($type) {
         switch ($type) {
@@ -54,7 +55,7 @@ class MsgFactory {
             case 'cty':
                 return new CtyMsg();
             case 'jg':
-                return new JgMsg();
+                return new JdMsg();
             default:
                 return null;
         }
