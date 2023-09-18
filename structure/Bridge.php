@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * 桥接模式
+ */
+
 interface Implementor
 {
     public function OperationImp();

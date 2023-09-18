@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * 适配器模式
+ */
+
 interface Target
 {
     public function Request();
